@@ -6,10 +6,10 @@
   var intro = document.querySelector('.intro');
   if (intro) {
     window.addEventListener('load', function () {
-      setTimeout(function () { intro.classList.add('done'); }, reduce ? 0 : 1150);
+      setTimeout(function () { intro.classList.add('done'); }, reduce ? 0 : 1900);
     });
     // safety: never trap the page
-    setTimeout(function () { intro.classList.add('done'); }, 2600);
+    setTimeout(function () { intro.classList.add('done'); }, 3400);
   }
 
   /* ---- Nav scrolled state ---- */
