@@ -1,4 +1,4 @@
-/* Torque Automotive NZ Ltd — site interactions */
+/* Torque Automotive NZ Ltd, site interactions */
 (function () {
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
