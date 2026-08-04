@@ -179,7 +179,7 @@ a{color:inherit;text-decoration:none}
 /* ---------- About ---------- */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 .about-media{position:relative}
-.about-media img{width:100%;aspect-ratio:5/4;object-fit:cover;object-position:center;border-radius:var(--radius);filter:saturate(.85) contrast(1.05)}
+.about-media img{width:100%;height:auto;display:block;border-radius:var(--radius);filter:saturate(.85) contrast(1.05)}
 .about-tag{
   position:absolute;bottom:-22px;left:-22px;background:var(--accent);color:#ffffff;
   padding:22px 26px;border-radius:14px;box-shadow:var(--shadow);max-width:220px;
@@ -294,7 +294,7 @@ a{color:inherit;text-decoration:none}
   .hamburger{display:block}
   .trust-grid,.svc-grid,.crew-grid,.rev-grid{grid-template-columns:1fr 1fr}
   .about-grid,.contact-grid{grid-template-columns:1fr;gap:44px}
-  .about-media img{aspect-ratio:16/11}
+  .about-media img{aspect-ratio:auto;height:auto}
   .footer-top{grid-template-columns:1fr 1fr}
   .footer-about{grid-column:1/-1}
 }
